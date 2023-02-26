@@ -25,9 +25,9 @@ listen(document, 'mouseup touchend')
 
 
 var nextContainer = document.querySelector('.second-container');
-var h = 900; // x vertex, half of total bounce duration
-var k = 260; // y vertex, total bounce height
-var a = -8 * k / Math.pow(h * 2, 2); // coefficient: -.000483932
+var h = 700; // x vertex, half of total bounce duration
+var k = 165; // y vertex, total bounce height
+var a = -2 * k / Math.pow(h * 2, 2); // coefficient: -.000483932
 var ypos, start, time;
 
 (function drawPosition(timestamp) {
@@ -45,9 +45,9 @@ var ypos, start, time;
 })(performance.now());
 
 var thirdContainer = document.querySelector('.third-container');
-var h = 900; // x vertex, half of total bounce duration
-var k = 260; // y vertex, total bounce height
-var a = -8 * k / Math.pow(h * 2, 2); // coefficient: -.000483932
+var h = 700; // x vertex, half of total bounce duration
+var k = 165; // y vertex, total bounce height
+var a = -2 * k / Math.pow(h * 2, 2); // coefficient: -.000483932
 var ypos, start, time;
 
 (function drawPosition(timestamp) {
@@ -62,9 +62,9 @@ var ypos, start, time;
 
 
 var forthContainer = document.querySelector('.forth-container');
-var h = 900; // x vertex, half of total bounce duration
-var k = 260; // y vertex, total bounce height
-var a = -8 * k / Math.pow(h * 2, 2); // coefficient: -.000483932
+var h = 700; // x vertex, half of total bounce duration
+var k = 165; // y vertex, total bounce height
+var a = -2 * k / Math.pow(h * 2, 2); // coefficient: -.000483932
 var ypos, start, time;
 
 (function drawPosition(timestamp) {
@@ -79,9 +79,9 @@ var ypos, start, time;
 
 
 var fifthContainer = document.querySelector('.fifth-container');
-var h = 900; // x vertex, half of total bounce duration
-var k = 260; // y vertex, total bounce height
-var a = -8 * k / Math.pow(h * 2, 2); // coefficient: -.000483932
+var h = 700; // x vertex, half of total bounce duration
+var k = 165; // y vertex, total bounce height
+var a = -2 * k / Math.pow(h * 2, 2); // coefficient: -.000483932
 var ypos, start, time;
 
 (function drawPosition(timestamp) {
