@@ -172,7 +172,7 @@ html {
     }
   }
   
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:500px) {
     .second-container,.third-container,.forth-container,.fifth-container {
         width: 100px;
     height: 100px;
