@@ -86,6 +86,8 @@ body {
 
 .gilad-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 10%;
     width: 100%;
 }
@@ -170,12 +172,18 @@ html {
     }
   }
   
-@media only screen and (max-width:560px) {
-    .second-container{
+@media only screen and (max-width:600px) {
+    .second-container,.third-container,.forth-container,.fifth-container {
         width: 100px;
-        height: 100px;
-        /* gap: 10%; */
-        /* margin: 10px; */
-        border-radius: 50%;
+    height: 100px;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border:4px solid peru;
+    overflow: hidden;
+    z-index: 10;
+    cursor: grab;
     }
-}
+ } 
