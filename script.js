@@ -27,7 +27,7 @@ listen(document, 'mouseup touchend')
 var nextContainer = document.querySelector('.second-container');
 var h = 700; // x vertex, half of total bounce duration
 var k = 160; // y vertex, total bounce height
-var a = -4 * k / Math.pow(h * 2, 2); // coefficient: -.000483932
+var a = -10 * k / Math.pow(h * 2, 2); // coefficient: -.000483932
 var ypos, start, time;
 
 (function drawPosition(timestamp) {
@@ -47,7 +47,7 @@ var ypos, start, time;
 var thirdContainer = document.querySelector('.third-container');
 var h = 700; // x vertex, half of total bounce duration
 var k = 200; // y vertex, total bounce height
-var a = -4 * k / Math.pow(h * 2, 2); // coefficient: -.000483932
+var a = -10 * k / Math.pow(h * 2, 2); // coefficient: -.000483932
 var ypos, start, time;
 
 (function drawPosition(timestamp) {
@@ -64,7 +64,7 @@ var ypos, start, time;
 var forthContainer = document.querySelector('.forth-container');
 var h = 700; // x vertex, half of total bounce duration
 var k = 160; // y vertex, total bounce height
-var a = -4 * k / Math.pow(h * 2, 2); // coefficient: -.000483932
+var a = -10 * k / Math.pow(h * 2, 2); // coefficient: -.000483932
 var ypos, start, time;
 
 (function drawPosition(timestamp) {
@@ -81,7 +81,7 @@ var ypos, start, time;
 var fifthContainer = document.querySelector('.fifth-container');
 var h = 700; // x vertex, half of total bounce duration
 var k = 160; // y vertex, total bounce height
-var a = -4 * k / Math.pow(h * 2, 2); // coefficient: -.000483932
+var a = -10 * k / Math.pow(h * 2, 2); // coefficient: -.000483932
 var ypos, start, time;
 
 (function drawPosition(timestamp) {
@@ -103,14 +103,14 @@ let body = document.body
 let title = document.querySelector('body h1')
 
 function getTime() {
-  
-  let date = new Date();
-  let hours = date.getHours()
-  let minutes = date.getMinutes()
-  let seconds = date.getSeconds()
-  hourEl.innerText = hours ;
-  minuteEl.innerText = `${minutes < 9 ? `0${minutes}`:minutes}`;
-  secondEl.innerText = `${seconds < 9 ? `0${seconds}`:seconds}`;
+
+    let date = new Date();
+    let hours = date.getHours()
+    let minutes = date.getMinutes()
+    let seconds = date.getSeconds()
+    hourEl.innerText = hours;
+    minuteEl.innerText = `${minutes < 9 ? `0${minutes}` : minutes}`;
+    secondEl.innerText = `${seconds < 9 ? `0${seconds}` : seconds}`;
 }
 
 getTime()
@@ -119,17 +119,17 @@ setInterval(getTime, 1000)
 
 let isClick = false;
 mode.addEventListener('click', () => {
-  
-  if(isClick) {
-    body.style.backgroundColor = 'black'
-    title.style.color = 'white'
-    mode.style.backgroundColor = 'white'
-    
-    isClick = false
-  } else {
-     body.style.backgroundColor = 'white'
-    title.style.color = 'black'
-    mode.style.backgroundColor = 'black'
-    isClick = true
-  }
+
+    if (isClick) {
+        body.style.backgroundColor = 'black'
+        title.style.color = 'white'
+        mode.style.backgroundColor = 'white'
+
+        isClick = false
+    } else {
+        body.style.backgroundColor = 'white'
+        title.style.color = 'black'
+        mode.style.backgroundColor = 'black'
+        isClick = true
+    }
 })
