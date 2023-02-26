@@ -86,7 +86,7 @@ body {
 
 .gilad-container {
     display: flex;
-    gap: 15%;
+    gap: 10%;
     width: 100%;
 }
 
@@ -171,9 +171,9 @@ html {
   }
   
 @media only screen and (max-width:560px) {
-    .second-container,.third-container,.forth-container, .fifth-container {
-        width: 200px;
-        height: 80px;
+    .second-container{
+        width: 100px;
+        height: 100px;
         /* gap: 10%; */
         /* margin: 10px; */
         border-radius: 50%;
