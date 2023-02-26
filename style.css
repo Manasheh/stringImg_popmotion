@@ -114,7 +114,7 @@ html {
    font-family: 'Black Ops One', sans-serif;
     letter-spacing: 5px;
     position:relative;
-    margin-top: 20px;
+    margin-top: 50px;
    }
   .Boxcontainer {
     display:flex;
@@ -174,7 +174,7 @@ html {
   
 @media only screen and (max-width:700px) {
     .second-container,.third-container,.forth-container,.fifth-container {
-        width: 100px;
+        width: 150px;
     height: 100px;
     object-fit: cover;
     background-size: cover;
@@ -185,5 +185,9 @@ html {
     overflow: hidden;
     z-index: 10;
     cursor: grab;
+    }
+    .gilad-container {
+        width: 100vw;
+        gap: 5%;
     }
  } 
