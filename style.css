@@ -23,7 +23,7 @@ body {
 }
 
 .second-container {
-    width: 200px;
+    max-width: 200px;
     height: 200px;
     background-color:#f3f3f3;
     object-fit: cover;
@@ -39,7 +39,7 @@ body {
     scale: 1.2;
 }
  .third-container {
-    width: 160px;
+    max-width: 160px;
     height: 160px;
     background-color:#f3f3f3;
     object-fit: cover;
@@ -54,7 +54,7 @@ body {
     cursor: grab;
 }
  .forth-container {
-    width: 200px;
+    max-width: 200px;
     height: 200px;
     background-color:#f3f3f3;
     object-fit: cover;
@@ -69,7 +69,7 @@ body {
     cursor: grab;
 }
 .fifth-container {
-    width: 200px;
+    max-width: 200px;
     height: 200px;
     background-color:#f3f3f3;
     object-fit: cover;
